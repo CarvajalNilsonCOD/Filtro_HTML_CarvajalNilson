@@ -1,0 +1,127 @@
+body {
+    margin: 0 auto;
+    background-color: slategray;
+    color: rgb(82, 71, 71);
+}
+
+.caja {
+    border: 1px solid black;
+    width: 40vw;
+    height: 36vw;
+    position: absolute;
+    margin: auto;
+    margin-top: 5vw;
+    margin-left: 37vw;
+    margin-bottom: 0;
+    margin-right: 0;
+    background-color: aqua;
+    border-radius: 2vw;
+}
+
+.tex-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2vw;
+    font-size: 2vw;
+}
+
+.tex-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 24vw;
+    margin-top: 4vw;
+    font-weight: 500;
+    position: absolute;
+    font-size: 2vw;
+}
+
+.tex-a {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 11vw;
+    margin-left: 23.5vw;
+    font-size: 1.4vw;
+}
+
+.tex-a:hover {
+    background-color: rgb(166, 179, 174);
+    padding: 0.5vw;
+    color: aqua;
+    border-radius: 1vw 0vw 0vw 1vw;
+}
+
+.tex-b {
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 14.5vw;
+    width: 12.5vw;
+    margin-left: 23.5vw;
+    font-size: 1.4vw;
+}
+
+.tex-b:hover {
+    background-color: rgb(166, 179, 174);
+    padding: 0.5vw;
+    color: aqua;
+    border-radius: 1vw 0vw 0vw 1vw;
+}
+.tex-c{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 22vw;
+    margin-left: 23.5vw;
+    font-size: 1.4vw;
+    width: 12.5vw;
+}
+.tex-c:hover{
+    background-color: rgb(166, 179, 174);
+    padding: 0.5vw;
+    color: aqua;
+    border-radius: 1vw 0vw 0vw 1vw;
+}
+.tex-d{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 27vw;
+    margin-left: 23.5vw;
+    font-size: 1.4vw;
+    width: 12.5vw;
+}
+.tex-d:hover{
+    background-color: rgb(166, 179, 174);
+    padding: 0.5vw;
+    color: aqua;
+    border-radius: 1vw 0vw 0vw 1vw;
+}
+.tex-e{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 39vw;
+    margin-left: 23.5vw;
+    font-size: 1.4vw;
+    width: 12.5vw;
+}
+.tex-b-dos{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 18vw;
+    margin-left: 23.5vw;
+    font-size: 1.4vw;
+    width: 12.5vw;
+}
+.tex-b-dos:hover{
+    background-color: rgb(166, 179, 174);
+    padding: 0.5vw;
+    color: aqua;
+    border-radius: 1vw 0vw 0vw 1vw;
+}
