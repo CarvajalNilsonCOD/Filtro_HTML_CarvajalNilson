@@ -1,127 +1,233 @@
 body {
     margin: 0 auto;
-    background-color: slategray;
-    color: rgb(82, 71, 71);
+    background-color: rgb(79, 87, 94);
+}
+
+.contenedor {
+    background-color: rgb(91, 134, 177);
+    border: 1px solid rgb(91, 134, 177);
+    border-radius: 0.5vw;
+    width: 80vw;
+    height: 43vw;
+    padding: 1vw;
+    position: absolute;
+    z-index: 1;
+    margin-top: 2vw;
+    margin-left: 8.5vw;
 }
 
 .caja {
     border: 1px solid black;
-    width: 40vw;
-    height: 36vw;
+    width: 60vw;
+    height: 38vw;
     position: absolute;
     margin: auto;
-    margin-top: 5vw;
-    margin-left: 37vw;
+    margin-top: 2.5vw;
+    margin-left: 19vw;
     margin-bottom: 0;
     margin-right: 0;
-    background-color: aqua;
-    border-radius: 2vw;
+    border: 1px solid rgb(159, 243, 243);
+    background-color: rgb(159, 243, 243);
+    border-radius: 1vw;
+    z-index: 2;
 }
 
 .tex-1 {
     font-family: Arial, Helvetica, sans-serif;
+    color: rgb(54, 60, 66);
     margin-left: 2vw;
     font-size: 2vw;
 }
 
 .tex-2 {
     font-family: Arial, Helvetica, sans-serif;
-    margin-left: 24vw;
-    margin-top: 4vw;
+    margin-left: 6vw;
+    margin-top: 3vw;
     font-weight: 500;
     position: absolute;
+    color: rgb(151, 218, 218);
     font-size: 2vw;
 }
 
 .tex-a {
     text-decoration: none;
-    color: black;
+    color: rgb(179, 223, 223);
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    margin-top: 11vw;
-    margin-left: 23.5vw;
+    margin-top: 10vw;
+    margin-left: 4.6vw;
     font-size: 1.4vw;
+
 }
 
 .tex-a:hover {
-    background-color: rgb(166, 179, 174);
+    background-color: rgb(130, 189, 166);
     padding: 0.5vw;
     color: aqua;
     border-radius: 1vw 0vw 0vw 1vw;
+
 }
 
 .tex-b {
     text-decoration: none;
-    color: black;
+    color: rgb(179, 223, 223);
     font-family: Arial, Helvetica, sans-serif;
     position: absolute;
-    margin-top: 14.5vw;
+    margin-top: 13vw;
     width: 12.5vw;
-    margin-left: 23.5vw;
+    margin-left: 4.6vw;
     font-size: 1.4vw;
 }
 
 .tex-b:hover {
-    background-color: rgb(166, 179, 174);
+    background-color: rgb(130, 189, 166);
+    padding: 0.5vw;
+    width: 15vw;
+    color: aqua;
+    border-radius: 1vw 0vw 0vw 1vw;
+}
+
+.tex-c {
+    text-decoration: none;
+    color: rgb(179, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 19vw;
+    margin-left: 4.6vw;
+    font-size: 1.4vw;
+    width: 12.5vw;
+}
+
+.tex-c:hover {
+    background-color: rgb(130, 189, 166);
+    padding: 0.5vw;
+    width: 15vw;
+    color: aqua;
+    border-radius: 1vw 0vw 0vw 1vw;
+}
+
+.tex-d {
+    text-decoration: none;
+    color: rgb(179, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 27.7vw;
+    margin-left: 4.6vw;
+    font-size: 1.4vw;
+    width: 12.5vw;
+}
+
+.tex-d:hover {
+    background-color: rgb(130, 189, 166);
+    padding: 0.5vw;
+    width: 15vw;
+    color: aqua;
+    border-radius: 1vw 0vw 0vw 1vw;
+}
+
+.tex-e {
+    text-decoration: none;
+    color: rgb(179, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 38vw;
+    margin-left: 4.6vw;
+    font-size: 1.4vw;
+    width: 12.5vw;
+}
+
+.tex-b-dos {
+    text-decoration: none;
+    color: rgb(179, 223, 223);
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: 16vw;
+    margin-left: 4.6vw;
+    font-size: 1.4vw;
+    width: 12.5vw;
+}
+
+.tex-b-dos:hover {
+    background-color: rgb(130, 189, 166);
+    padding: 0.5vw;
+    width: 15vw;
     padding: 0.5vw;
     color: aqua;
     border-radius: 1vw 0vw 0vw 1vw;
 }
-.tex-c{
-    text-decoration: none;
-    color: black;
-    font-family: Arial, Helvetica, sans-serif;
+
+.asterisco {
+    width: 1vw;
+    height: 1vw;
+}
+
+.número {
+    width: 1.5vw;
+    height: 1vw;
+    border-radius: 0.2vw;
+    margin-left: 0.5vw;
+    margin-top: 27.9vw;
+    margin-left: 12vw;
     position: absolute;
-    margin-top: 22vw;
-    margin-left: 23.5vw;
-    font-size: 1.4vw;
-    width: 12.5vw;
 }
-.tex-c:hover{
-    background-color: rgb(166, 179, 174);
-    padding: 0.5vw;
-    color: aqua;
-    border-radius: 1vw 0vw 0vw 1vw;
-}
-.tex-d{
-    text-decoration: none;
-    color: black;
+
+.boton-v {
+    text-align: center;
+    background-color: rgb(80, 240, 232);
     font-family: Arial, Helvetica, sans-serif;
+    width: 10.5vw;
+    height: 0.5vw;
+    padding: 1vw;
+    font-size: 1vw;
+    padding: 1vw;
     position: absolute;
-    margin-top: 27vw;
-    margin-left: 23.5vw;
-    font-size: 1.4vw;
-    width: 12.5vw;
+    left: 2.8vw;
+    border-radius: 0.6vw;
+    top: 32vw;
+    margin: auto;
+    border: 1px solid rgb(80, 240, 232);
 }
-.tex-d:hover{
-    background-color: rgb(166, 179, 174);
-    padding: 0.5vw;
-    color: aqua;
-    border-radius: 1vw 0vw 0vw 1vw;
+
+.boton-v:hover {
+    background-color: rgb(0, 174, 255);
 }
-.tex-e{
-    text-decoration: none;
-    color: black;
+
+.boton-a {
+    text-align: center;
+    background-color: rgb(80, 240, 232);
     font-family: Arial, Helvetica, sans-serif;
+    width: 10.5vw;
+    height: 0.5vw;
+    padding: 1vw;
+    font-size: 1vw;
+    padding: 1vw;
     position: absolute;
-    margin-top: 39vw;
-    margin-left: 23.5vw;
-    font-size: 1.4vw;
-    width: 12.5vw;
+    left: 45vw;
+    border-radius: 0.6vw;
+    top: 32vw;
+    margin: auto;
+    border: 1px solid rgb(133, 138, 137);
 }
-.tex-b-dos{
-    text-decoration: none;
-    color: black;
+
+.boton-a:hover {
+    background-color: rgb(19, 161, 226);
+}
+.boton-grande{
+    height: 6vw;
+    width: 30vw;
+    margin-left: 27.8vw;
+    background-color: rgb(66, 243, 184);
+    border-radius: 0.4vw;
+    margin-top: 26.5vw;
+    border: 1px solid  rgb(138, 163, 162);
+}
+.money{
     font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    margin-top: 18vw;
-    margin-left: 23.5vw;
-    font-size: 1.4vw;
-    width: 12.5vw;
+    font-size: 1vw;
+    margin-left:  13vw;
 }
-.tex-b-dos:hover{
-    background-color: rgb(166, 179, 174);
-    padding: 0.5vw;
-    color: aqua;
-    border-radius: 1vw 0vw 0vw 1vw;
+.money2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    margin-left:  13vw;
 }
